@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "vin.howe.soundphysics.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityMixin",
+    "IMixinSoundSystem",
+    "ServerWorldMixin",
+    "SoundEngineMixin",
+    "SoundSystemMixin",
+    "SourceMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

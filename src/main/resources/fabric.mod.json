@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "soundphysics",
+  "version": "${version}",
+  "name": "Sound Physics",
+  "description": "Provides realistic sound attenuation, reverberation, and absorption through blocks.",
+  "authors": [
+    "sonicether",
+    "daipenger",
+    "vinhowe"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "vin.howe.soundphysics.SoundPhysics"
+    ]
+  },
+  "mixins": [
+    "soundphysics.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
